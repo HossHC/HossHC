@@ -1,0 +1,96 @@
+body {
+    background-image: url('parede-de-tijolo-preto-texturizado-fundo.jpg');
+    background-size: cover; /* Para cobrir todo o espaço do corpo */
+    background-repeat: no-repeat; /* Evita repetir a imagem */
+}
+
+body, h1, h2, p, ul, li {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f0f0f0;
+}
+
+header {
+    background-color: #000000;
+    color: #fff;
+    padding: 20px;
+    text-align: center;
+}
+
+header h1 {
+    font-size: 36px;
+}
+
+nav ul {
+    list-style: none;
+}
+
+nav ul li {
+    display: inline;
+    margin-right: 20px;
+}
+
+nav a {
+    text-decoration: none;
+    color: #fff;
+    font-weight: bold;
+}
+
+section.products {
+    display: flex;
+    justify-content: center;
+    margin-top: 20px;
+}
+
+.product {
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    padding: 20px;
+    margin: 10px;
+    background-color: #fff;
+    text-align: center;
+    width: 300px;
+}
+
+.product img {
+    max-width: 100%;
+}
+
+.product h2 {
+    margin-top: 10px;
+}
+
+button {
+    background-color: #333;
+    color: #fff;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 5px;
+    cursor: pointer;
+    margin-top: 10px;
+}
+
+footer {
+    background-color: #000000;
+    color: #fff;
+    text-align: center;
+    padding: 10px 0;
+}
+
+.products {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.product {
+    width: calc(25% - 20px); /* Defina a largura para 25% menos a margem entre as colunas */
+    margin: 10px;
+    padding: 20px;
+    background-color: #fff;
+    text-align: center;
+    box-sizing: border-box;
+}
